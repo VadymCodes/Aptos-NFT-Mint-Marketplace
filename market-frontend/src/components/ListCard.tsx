@@ -3,7 +3,7 @@ import React from "react";
 import { Token } from "../types";
 import { TooltipSection } from "./TooltipSection";
 
-type CardProps = { key: string; data: Token; onClick: any };
+// type CardProps = { key: string; data: Token; onClick: any };
 export function ListCard({ data: token, onClick }: CardProps) {
   return (
     <div className="card card-compact shadow-xl bg-slate-50">
